@@ -8,14 +8,11 @@ def solution(diffs, times, limit):
             time_cur = times[i]
 
             if diff <= level:
-                # 숙련도가 충분하면 바로 해결
                 total_time += time_cur
             else:
-                # 숙련도가 부족하면 틀림
                 num_mistakes = diff - level
                 total_time += (time_cur + prev_time) * num_mistakes + time_cur
 
-            # 이전 퍼즐의 소요 시간 업데이트
             prev_time = time_cur
 
             # 제한 시간 초과 시 중단
