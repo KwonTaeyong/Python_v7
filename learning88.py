@@ -2,6 +2,13 @@ def solution(heights):
     n = len(heights)
     heights.sort()
 
+    for i in range(1, n):
+        if heights[i] == heights
+
+def solution(heights):
+    n = len(heights)
+    heights.sort()
+
     # 중복이 있으면 무조건 0
     for i in range(1, n):
         if heights[i] == heights[i-1]:
