@@ -18,4 +18,5 @@ def solution(n, q, ans):
         if valid:
             answer += 1
 
+    # return
     return answer
