@@ -10,7 +10,14 @@ def solution(n, times):
         total = 0
         for t in times:
             total += mid // t
-            if total >= n:
+            
+
+
+
+
+
+
+            
                 break
 
         if total >= n:
